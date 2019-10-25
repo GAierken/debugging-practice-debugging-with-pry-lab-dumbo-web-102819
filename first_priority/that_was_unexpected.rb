@@ -26,7 +26,7 @@ class Person
       puts "Aw sweet, this cat loves them some candy!"
 
     else
-      10.times do
+  
         puts "not a ballin candy lover"
     end
    end
