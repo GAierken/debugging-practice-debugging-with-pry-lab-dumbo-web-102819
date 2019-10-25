@@ -26,7 +26,8 @@ class Person
       puts "Aw sweet, this cat loves them some candy!"
         binding.pry
     else
-        puts "not a ballin candy lover"
+        10.times do
+        "not a ballin candy lover"
     end
    end
   end
