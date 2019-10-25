@@ -6,7 +6,7 @@ class Person
   def initialize(name, candy_lover)
     @name = name
     @candy_lover = candy_lover
-
+    binding.pry
   end
 
   def tall?
@@ -24,7 +24,7 @@ class Person
   def ballin_candy_lover?
     if @candy_lover == true
       puts "Aw sweet, this cat loves them some candy!"
-    
+
     else
       10.times do
         puts "not a ballin candy lover"
