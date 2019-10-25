@@ -1,7 +1,6 @@
 require "pry"
 class Person
   attr_accessor :name
-  binding.pry
 
 
   def initialize(name, candy_lover)
@@ -25,9 +24,10 @@ class Person
   def ballin_candy_lover?
     if @candy_lover == true
       puts "Aw sweet, this cat loves them some candy!"
+      binding.pry
     else
       10.times do
         puts "not a ballin candy lover"
     end
-   end 
+   end
   end
